@@ -1,6 +1,6 @@
-const display = document.getElementId("display");
-const btn1 = document.getElementId("button1");
+const display = document.getElementId('display');
+const btn1 = document.getElementId('button1');
 
 btn1.onclick = function() {
-  display.textContent += "1";
+  display.textContent += '1';
 };
